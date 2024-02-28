@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Crusader Chess Pieces</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+    <!-- <script
+      src="https://kit.fontawesome.com/67a3cf6426.js"
+      crossorigin="anonymous"
+    ></script> -->
+  </head>
+  <body>
+    <header id="header">
+      <img src="./logo.png" alt="Chess Pieces" id="header-img" />
+      <input type="checkbox" id="menu-icon" />
+      <label for="menu-icon"><i class="fas fa-bars"></i></label>
+      <nav id="nav-bar">
+        <a href="#features" class="nav-link">Features</a>
+        <a href="#materials" class="nav-link">Materials</a>
+        <a href="#pricing" class="nav-link">Pricing</a>
+        <a href="#newsletter" class="nav-link">Newsletter</a>
+      </nav>
+    </header>
+    <main>
+      <section class="center" id="hero">
+        <h1 id="hero-headline">
+          Elevate Your Chess Game with Exquisite Chess Pieces
+        </h1>
+        <p id="sub-headline">
+          Discover the Perfect Balance of Artistry and Functionality
+        </p>
+        <a id="btn-newsletter" href="#newsletter">Join Our Newsletter</a>
+      </section>
+      <section id="features">
+        <div class="feature">
+          <h2 class="feature-title">
+            <i class="icon fa-solid fa-compass-drafting"></i> Exceptional
+            Craftsmanship
+          </h2>
+          <p class="feature-desc">
+            Our chess pieces are meticulously crafted by skilled artisans,
+            ensuring exceptional attention to detail and precision in every
+            piece.
+          </p>
+        </div>
+        <div class="feature">
+          <h2 class="feature-title">
+            <i class="icon fa-solid fa-wand-magic-sparkles"></i> Premium
+            Materials
+          </h2>
+          <p class="feature-desc">
+            Crafted from premium materials, our chess pieces boast durability
+            and a luxurious feel, enhancing your overall gaming experience.
+          </p>
+        </div>
+        <div class="feature">
+          <h2 class="feature-title">
+            <i class="icon fa-solid fa-bezier-curve"></i> Unique Designs
+          </h2>
+          <p class="feature-desc">
+            Explore a diverse collection of unique and aesthetically pleasing
+            designs, catering to both traditional and modern tastes.
+          </p>
+        </div>
+        <div class="feature">
+          <h2 class="feature-title">
+            <i class="icon fa-solid fa-cubes"></i> Perfect Weight and Balance
+          </h2>
+          <p class="feature-desc">
+            Achieve the perfect balance between form and function. Our chess
+            pieces are crafted to provide an optimal gaming experience, ensuring
+            ease of play and strategic maneuvering.
+          </p>
+        </div>
+      </section>
+      <section id="materials">
+        <div class="material">
+          <h2 class="material-title">Wood</h2>
+          <img
+            class="material-img"
+            src="https://cdn.pixabay.com/photo/2016/11/21/15/47/wood-1846059_1280.jpg"
+            alt="Pieces of Wood"
+          />
+        </div>
+        <div class="material">
+          <h2 class="material-title">Metal Alloy Accents</h2>
+          <img
+            class="material-img"
+            src="https://cdn.pixabay.com/photo/2015/12/08/00/33/copper-1081825_1280.jpg"
+            alt="Chess Metal Pieces"
+          />
+        </div>
+        <div class="material">
+          <h2 class="material-title">Hand-painted Finishes</h2>
+          <img
+            class="material-img"
+            src="https://cdn.pixabay.com/photo/2021/01/09/11/21/chess-5902046_1280.jpg"
+            alt="Chess Pieces with Hand painted finish"
+          />
+        </div>
+      </section>
+      <section id="pricing">
+        <h2 id="pricing-title">Pricing</h2>
+        <table id="pricing-table">
+          <thead>
+            <tr>
+              <th>Chess Set</th>
+              <th>Price</th>
+              <th>Action</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Classic Staunton Set</td>
+              <td>$89.99</td>
+              <td><a class="pricing-btn" href="#">Select</a></td>
+            </tr>
+            <tr>
+              <td>Modern Artistic Set</td>
+              <td>$119.99</td>
+              <td><a class="pricing-btn" href="#">Select</a></td>
+            </tr>
+            <tr>
+              <td>Luxury Collector's Set</td>
+              <td>$259.99</td>
+              <td><a class="pricing-btn" href="#">Select</a></td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+      <section id="newsletter">
+        <p id="newsletter-caption">Unlock a world of chess elegance!</p>
+        <div>
+          <span id="newsletter-sub-caption"
+            >Subscribe to our newsletter for insider access to new arrivals, and
+            exclusive promotions</span
+          >
+          <form
+            method="post"
+            action="https://www.freecodecamp.com/email-submit"
+            id="form"
+          >
+            <input
+              name="email"
+              type="email"
+              id="email"
+              placeholder="Enter your email address"
+            />
+            <input type="submit" id="submit" />
+          </form>
+          <div id="chess-video">
+            <iframe
+              src="https://www.youtube.com/embed/-Tg9xiJ6D6k?si=QHT-hxl3zWjkd-Gp"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowfullscreen
+            ></iframe>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <span id="footer-text">Copyright 2024 Marife Dela Torre</span>
+    </footer>
+  </body>
+</html>
